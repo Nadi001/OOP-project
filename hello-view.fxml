@@ -368,3 +368,459 @@ public class InventoryController {
         alert.showAndWait();
     }
 }
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class TechnologyIntegrationController {
+
+    @FXML
+    private TextArea researchSection;
+
+    @FXML
+    private TextArea testingSection;
+
+    @FXML
+    private TextArea deploymentSection;
+
+    @FXML
+    private Button planIntegrationButton;
+
+    @FXML
+    private Button testSystemsButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize sections with placeholder text
+        researchSection.setText("Research new technologies here...");
+        testingSection.setText("Testing systems and processes...");
+        deploymentSection.setText("Deployment strategies and notes...");
+    }
+
+    // Method to handle planning integration
+    @FXML
+    private void handlePlanIntegration() {
+        // Logic to plan integration
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Integration Planning");
+        alert.setHeaderText(null);
+        alert.setContentText("Integration planning has been initiated!");
+        alert.showAndWait();
+    }
+
+    // Method to handle testing systems
+    @FXML
+    private void handleTestSystems() {
+        // Logic to test systems
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("System Testing");
+        alert.setHeaderText(null);
+        alert.setContentText("Systems are being tested!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class RecruitmentHubController {
+
+    @FXML
+    private TextArea jobListingsSection;
+
+    @FXML
+    private TextArea resumeScreeningSection;
+
+    @FXML
+    private Button postJobButton;
+
+    @FXML
+    private Button onboardCandidateButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize sections with placeholder text
+        jobListingsSection.setText("Current job listings will appear here...");
+        resumeScreeningSection.setText("Resume screening process details...");
+    }
+
+    // Method to handle posting a job
+    @FXML
+    private void handlePostJob() {
+        // Logic to post a job
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Job Posting");
+        alert.setHeaderText(null);
+        alert.setContentText("Job has been posted successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle onboarding a candidate
+    @FXML
+    private void handleOnboardCandidate() {
+        // Logic to onboard a candidate
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Candidate Onboarding");
+        alert.setHeaderText(null);
+        alert.setContentText("Candidate onboarding process has started!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class TrainingDashboardController {
+
+    @FXML
+    private TextArea trainingCalendar;
+
+    @FXML
+    private TextArea feedbackForm;
+
+    @FXML
+    private Button assignTrainingButton;
+
+    @FXML
+    private Button viewResultsButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize widgets with placeholder text
+        trainingCalendar.setText("Training calendar will be displayed here...");
+        feedbackForm.setText("Feedback form will be filled here...");
+    }
+
+    // Method to handle assigning training
+    @FXML
+    private void handleAssignTraining() {
+        // Logic to assign training
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Assign Training");
+        alert.setHeaderText(null);
+        alert.setContentText("Training has been assigned successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle viewing results
+    @FXML
+    private void handleViewResults() {
+        // Logic to view results
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("View Results");
+        alert.setHeaderText(null);
+        alert.setContentText("Displaying training results...");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class DiversityCenterController {
+
+    @FXML
+    private TextArea metricsSection;
+
+    @FXML
+    private TextArea partnershipsSection;
+
+    @FXML
+    private Button runBiasTrainingButton;
+
+    @FXML
+    private Button viewMetricsButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize sections with placeholder text
+        metricsSection.setText("Diversity metrics will be displayed here...");
+        partnershipsSection.setText("Partnerships information will be displayed here...");
+    }
+
+    // Method to handle running bias training
+    @FXML
+    private void handleRunBiasTraining() {
+        // Logic to run bias training
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Run Bias Training");
+        alert.setHeaderText(null);
+        alert.setContentText("Bias training has been initiated successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle viewing metrics
+    @FXML
+    private void handleViewMetrics() {
+        // Logic to view metrics
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("View Metrics");
+        alert.setHeaderText(null);
+        alert.setContentText("Displaying diversity metrics...");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class EngagementDashboardController {
+
+    @FXML
+    private TextArea eventCalendarSection;
+
+    @FXML
+    private TextArea recognitionBoardSection;
+
+    @FXML
+    private Button createEventButton;
+
+    @FXML
+    private Button sendRecognitionButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize sections with placeholder text
+        eventCalendarSection.setText("Upcoming events will be displayed here...");
+        recognitionBoardSection.setText("Recognitions will be displayed here...");
+    }
+
+    // Method to handle creating an event
+    @FXML
+    private void handleCreateEvent() {
+        // Logic to create an event
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Create Event");
+        alert.setHeaderText(null);
+        alert.setContentText("Event creation process initiated!");
+        alert.showAndWait();
+    }
+
+    // Method to handle sending recognition
+    @FXML
+    private void handleSendRecognition() {
+        // Logic to send recognition
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Send Recognition");
+        alert.setHeaderText(null);
+        alert.setContentText("Recognition sent successfully!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class PerformanceManagementToolkitController {
+
+    @FXML
+    private TextArea goalSettingSection;
+
+    @FXML
+    private TextArea feedbackSessionsSection;
+
+    @FXML
+    private Button setGoalsButton;
+
+    @FXML
+    private Button startReviewButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize sections with placeholder text
+        goalSettingSection.setText("Goals for employees will be displayed here...");
+        feedbackSessionsSection.setText("Feedback session details will be displayed here...");
+    }
+
+    // Method to handle setting goals
+    @FXML
+    private void handleSetGoals() {
+        // Logic to set goals
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Set Goals");
+        alert.setHeaderText(null);
+        alert.setContentText("Goal setting process initiated!");
+        alert.showAndWait();
+    }
+
+    // Method to handle starting a review
+    @FXML
+    private void handleStartReview() {
+        // Logic to start a review
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Start Review");
+        alert.setHeaderText(null);
+        alert.setContentText("Review session started successfully!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class SafetyComplianceMonitorController {
+
+    @FXML
+    private TextArea safetyProtocolsWidget;
+
+    @FXML
+    private TextArea incidentReportsWidget;
+
+    @FXML
+    private Button reportHazardButton;
+
+    @FXML
+    private Button reviewAuditButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize widgets with placeholder text
+        safetyProtocolsWidget.setText("Safety protocols will be displayed here...");
+        incidentReportsWidget.setText("Incident reports will be displayed here...");
+    }
+
+    // Method to handle reporting a hazard
+    @FXML
+    private void handleReportHazard() {
+        // Logic to report a hazard
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Report Hazard");
+        alert.setHeaderText(null);
+        alert.setContentText("Hazard reported successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle reviewing an audit
+    @FXML
+    private void handleReviewAudit() {
+        // Logic to review an audit
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Review Audit");
+        alert.setHeaderText(null);
+        alert.setContentText("Audit review initiated!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class SuccessionPlanningHubController {
+
+    @FXML
+    private ListView<String> candidateListWidget;
+
+    @FXML
+    private TextArea developmentPlansWidget;
+
+    @FXML
+    private Button assignMentorButton;
+
+    @FXML
+    private Button monitorProgressButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize the candidate list and development plans
+        candidateListWidget.getItems().addAll("Candidate A", "Candidate B", "Candidate C");
+        developmentPlansWidget.setText("Development plans will be displayed here...");
+    }
+
+    // Method to handle assigning a mentor
+    @FXML
+    private void handleAssignMentor() {
+        // Logic to assign a mentor to a candidate
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Assign Mentor");
+        alert.setHeaderText(null);
+        alert.setContentText("Mentor assigned successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle monitoring progress
+    @FXML
+    private void handleMonitorProgress() {
+        // Logic to monitor the progress of candidates
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Monitor Progress");
+        alert.setHeaderText(null);
+        alert.setContentText("Progress monitoring initiated!");
+        alert.showAndWait();
+    }
+}
+import javafx.fxml.FXML;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
+
+public class WorkLifeBalanceDashboardController {
+
+    @FXML
+    private TextArea policyDetailsWidget;
+
+    @FXML
+    private ListView<String> feedbackListWidget;
+
+    @FXML
+    private Button updatePoliciesButton;
+
+    @FXML
+    private Button viewFeedbackButton;
+
+    // Method to initialize the controller
+    @FXML
+    public void initialize() {
+        // Initialize policy details and feedback list
+        policyDetailsWidget.setText("Current policies promoting work-life balance...");
+        feedbackListWidget.getItems().addAll("Great flexibility!", "Need more remote options.", "Happy with current policies.");
+    }
+
+    // Method to handle updating policies
+    @FXML
+    private void handleUpdatePolicies() {
+        // Logic to update policies
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("Update Policies");
+        alert.setHeaderText(null);
+        alert.setContentText("Policies updated successfully!");
+        alert.showAndWait();
+    }
+
+    // Method to handle viewing feedback
+    @FXML
+    private void handleViewFeedback() {
+        // Logic to view feedback from employees
+        Alert alert = new Alert(AlertType.INFORMATION);
+        alert.setTitle("View Feedback");
+        alert.setHeaderText(null);
+        alert.setContentText("Feedback viewed successfully!");
+        alert.showAndWait();
+    }
+}
